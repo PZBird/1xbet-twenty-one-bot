@@ -1,0 +1,17 @@
+{
+  "name": "1xbet-twenty-one-bot",
+  "version": "1.0.0",
+  "description": "1xBet twenty One game telegram bot",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Pavel Zabelin",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "node-telegram-bot-api": "^0.30.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  }
+}
