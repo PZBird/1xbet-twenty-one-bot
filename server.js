@@ -242,7 +242,7 @@ async function getGames(){
         && gamesObject.Value.length
         && gamesObject.Value.length > 0
       ){
-      for (let element of gamesObject.Value.length) {
+      for (let element of gamesObject.Value) {
         await checkGamesData(element);
       }
     }
